@@ -20,8 +20,11 @@
 \documentclass[8pt]{resume}
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
+%\usepackage{wasysym}
+\usepackage{fontawesome}
+\usepackage[misc]{ifsym}
 %document margins
-\usepackage[left=0.4in,top=0.6in,right=0.4in,bottom=0.6in]{geometry} 
+\usepackage[left=0.4in,top=0.6in,right=0.4in,bottom=0.6in]{geometry}
 
 %macros
 \newcommand{\tit}[1]{\textit{#1}}
@@ -32,66 +35,69 @@
 \name{Erik de Godoy Perillo}
 %\address{Rua Paulinia, 396 \\ Americana, SP -- Brazil}
 \address{Americana, SP -- Brazil}
-\address{+5519995177505 \\ erik.perillo@gmail.com \\ http://erikperillo.github.io}
+\address{\faMobilePhone~+5519996255727
+    ~~\Letter~erik.perillo@gmail.com
+    ~~$\triangleright$~erikperillo.xyz}
 
 \begin{document}
 
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{University of Campinas, Brazil}
-    \item Lead two successful projects with around 8 people each.
+    \item Lead two successful projects with around 6 people each.
     \item Helped design three autonomous robots and
-        created a Computer Vision framework for robots using OpenCV.
+        created Computer Vision solutions for robots using OpenCV.
     \item Leader of project \tit{Piranha} (2015-2016):
-        An autonomous mini-vehicle with trajectory planning/execution
-        and targets/obstacles recognition.
-        We got first place, scoring a new record in a latin-american
+        An autonomous mini-vehicle capable of visual recognition of
+        targets/obstacles.
+        We got first place, setting a new record in \tit{Robocore}'s
+        latin-american
         robotics challenge.
-    \item Leader of project \tit{Baleia} (2014-2015):
-        An autonomous mini-vehicle.
-        We competed in a latin-american robotics challenge
-        being the first newcomers in category to get third place.
+    %\item Leader of project \tit{Baleia} (7 people team, 2014-2015):
+    %    An autonomous mini-vehicle.
+    %    First newcomers in \tit{Robocore}'s latin-american competition to
+    %    get to the podium.
 \end{rSubsection}
 
-\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artifitial Intelligence (CNPQ)}
+\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artifitial Intelligence (grant by CNPQ)}
     {University of Campinas, Brazil}
-    \item The project aims at developing a general framework for real-time
-        objects detection/recognition allowing mobile robots to explore
-        unkwown environment.
+    \item Working towards a framework for real-time vision
+        allowing mobile robots to explore environment.
     \item Created \ttt{att}, a visual saliency detection model written in
         Python that predict where people look on images.
-        Our preliminary results suggest competitive performance when compared
-        to similar mature models in MIT300 benchmark.
-    \item I am currently implementing state-of-the-art techniques for
-        saliency detection using deep learning.
+        Our preliminary results from MIT300 benchmark suggest performance
+        close to similar mature models.
+    %\item I am currently implementing state-of-the-art techniques for
+    %    saliency detection using deep learning.
 \end{rSubsection}
 
-\begin{rSubsection}{Computational Mechanics Laboratory}{2014 - 2015}{Undergraduate Researcher on Computer Systems (AMD)}
+\begin{rSubsection}{Computational Mechanics Laboratory}{2014 - 2015}{Undergraduate Researcher on Computer Systems (grant by AMD)}
     {University of Campinas, Brazil}
-    \item Analysed multiple memory management techniques by Linux Kernel
-        for NUMA systems. Designed techiques for determining which policy
+    \item Analysed multiple Linux memory management policies for NUMA systems.
+        Designed techiques for determining which policy
         to use via application profiling.
 \end{rSubsection}
 
-\begin{rSubsection}{Renato Archer Center of Technology}{2013 - 2014}{Undergraduate Researcher on mobile robotics (CNPQ)}{Campinas, Brazil}
-    \item Built a framework for real-time indoors tracking of
+\begin{rSubsection}{Renato Archer Center of Technology}{2013 - 2014}{Undergraduate Researcher on mobile robotics (grant by CNPQ)}{Campinas, Brazil}
+    \item Built a tool for real-time indoors tracking of
         quadrotors using OpenCV\@. Compared to the older system,
         we achieved real-time tracking of twice as much objects
-        and no need for special hardware, only simple webcams.
+        and no need for special hardware (only simple webcams).
 \end{rSubsection}
 
 \end{rSection}
 
 \begin{rSection}{Education}
 
-\begin{rSubsection}{University of Campinas (Unicamp), Brazil}{2014 - Present}{B.S. in Computer Science/Engineering}{}
-    %\item B.S. in Computer Science/Engineering.
-    \item T.A. (2016) in \tit{Algorithms and data Structures 2}. I helped
+\begin{rSubsection}{University of Campinas (Unicamp), Brazil}{2012 - Present}{B.S. in Computer Science/Engineering}{}
+    \item T.A. (2016) in \tit{Data Structures}. Helped
         teach and design/administer exercises sessions.
-    \item Overall GPA: 3.4 (above 90\% of class).
-    \item Unicamp is ranked second best
-        (overall and in Computer Science) in latin america according to
-        QS rankings 2016.
+    \item Overall GPA: 3.25 (above 86\% of class).
+    \item Coursework in Control Engineering (2012-2014) including:
+        Dynamics, Statics, Linear Systems.
+    %\item Unicamp is ranked second best
+    %    (overall and in Computer Science) in latin america according to
+    %    QS rankings 2016.
 \end{rSubsection}
 
 \end{rSection}
@@ -99,12 +105,11 @@
 \begin{rSection}{Additional Information}
 
 \begin{rSubsection}{}{}{}{}
-    \item Computer Languages: Python, C++, C, Java, shell-scripting, Haskell,
-        Scheme.
+    \item Programming Languages: Python, C++, C, Java, Bash, Haskell, Scheme.
     \item Interest in Machine Learning/Computer Vision:
         built object classifiers with OpenCV,
         text classifiers for big volumes of data using Apache Spark.
-    \item A wide variety of small projects, such as a TCP/IP chat in C++,
+    \item A wide variety of small projects, such as a TCP chat in C++,
         Steganography in images with Python, a real time hashtag counter
         using Twitter streaming API and Apache Spark.
 \end{rSubsection}
