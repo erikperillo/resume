@@ -22,6 +22,7 @@
 \usepackage[utf8]{inputenc}
 %\usepackage{wasysym}
 \usepackage{fontawesome}
+\usepackage{hyperref}
 \usepackage[misc]{ifsym}
 %document margins
 \usepackage[left=0.4in,top=0.6in,right=0.4in,bottom=0.6in]{geometry}
@@ -36,8 +37,8 @@
 %\address{Rua Paulinia, 396 \\ Americana, SP -- Brazil}
 \address{Americana, SP -- Brazil}
 \address{\faMobilePhone~+5519996255727
-    ~~\Letter~erik.perillo@gmail.com
-    ~~$\triangleright$~erikperillo.xyz}
+   ~~\Letter~erik.perillo@gmail.com
+   ~~$\triangleright$~erikperillo.xyz}
 
 \begin{document}
 
@@ -45,15 +46,12 @@
 
 %\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{University of Campinas, Brazil}
 \begin{rSubsection}{Project Manager}{2013 - 2016}{Phoenix Team of Robotics}{University of Campinas, Brazil}
-    \item Lead two successful projects with around 6 people each.
-    \item Helped design three autonomous robots and
-        created Computer Vision solutions for robots using OpenCV.
-    \item Leader of project \tit{Piranha} (2015-2016):
-        An autonomous mini-vehicle capable of visual recognition of
-        targets/obstacles.
-        We got first place, setting a new record in \tit{Robocore}'s
-        latin-american
-        robotics challenge.
+    %\item Led two successful teams with around 6 people each.
+    \item Leader of project \tit{Piranha} (5 people team, 2015-2016):
+        An autonomous mini-vehicle.
+        First place in \tit{Robocore}'s latin-american 2016 robotics challenge, setting a new record.
+    \item Helped design three autonomous robots, creating navigation,
+        communication and computer vision systems.
     %\item Leader of project \tit{Baleia} (7 people team, 2014-2015):
     %    An autonomous mini-vehicle.
     %    First newcomers in \tit{Robocore}'s latin-american competition to
@@ -66,7 +64,7 @@
     \item Working towards a framework for real-time vision
         allowing mobile robots to explore a variety of environments.
     \item Created \ttt{att}, a visual saliency detection model written in
-        Python that predict where people look on images.
+        Python for predicting where people look on images.
         Our preliminary results from MIT300 benchmark suggest performance
         close to similar mature models.
     %\item I am currently implementing state-of-the-art techniques for
@@ -74,9 +72,8 @@
 \end{rSubsection}
 
 \begin{rSubsection}{Undergraduate Researcher on Computer Systems}{2014 - 2015}{Computational Mechanics Laboratory (grant by AMD)}{University of Campinas, Brazil}
-    \item Analysed multiple Linux memory management policies for NUMA systems.
-    \item Designed techiques for determining which memory policy
-        to use via application profiling.
+    \item Analysed Linux memory management policies for NUMA systems and multiple memory contention metrics.
+    \item Designed a predictive model to infer the performance of applications under different memory policies.
 \end{rSubsection}
 
 \begin{rSubsection}{Undergraduate Researcher on Computer Vision}{2013 - 2014}{Renato Archer Center of Technology (grant by CNPQ)}{Campinas, Brazil}
@@ -91,9 +88,9 @@
 \begin{rSection}{Education}
 
     \begin{rSubsection}{B.S. in Computer Science/Engineering (in progress)}{2012 - Present}{University of Campinas (Unicamp)}{Campinas, Brazil}
-    \item T.A. (2016) in \tit{Data Structures}. Helped
+    \item T.A. (2016/2017) in \tit{Data Structures}. Helped
         teach and design/administer exercises sessions.
-    \item GPA: 3.25 (above 86\% of course group).
+    \item GPA: 8.49/10 (above 92\% of class).
     \item Coursework in Control Engineering (2012-2014) including:
         Dynamics, Statics, Linear Systems.
     %\item Unicamp is ranked second best
@@ -103,29 +100,27 @@
 
 \end{rSection}
 
-\begin{rSection}{Technical Experience}
+\begin{rSection}{Projects}
 
-
-\tbf{Projects}
 \begin{rSubsection}{}{}{}{}
     \item \ttt{golb}: Minimalistic blog platform built with Django.
+    \item \ttt{Piranha Robot}:
+        built inter-communication system using UDP protocol (C++),
+        vision system using CUDA OpenCV (C++/Python),
+        helped build PID control unit using NXP platform/sensors (C/C++),
     \item \ttt{hct}: Real time hashtag counter using Twitter Streaming API and
         Apache Spark.
+    \item \ttt{Baleia Robot}:
+        built navigation system using Adafruit's BBIO library (Python),
+        vision system using an image classifier to detect objects in OpenCV (Python).
     \item \ttt{oarg}: A command-line argument parser for Python.
     \item \ttt{ichat}: TCP command-line chat in C++ with file transfer and
         notifications.
-    \item \ttt{imsg}: Steganography in images tool in Python.
+    \item \ttt{imsg}: Steganography for images written in Python.
     %\item \ttt{mlct}: Naive Bayes text classifier for big volumes of data using
     %    Apache Spark Mlib.
     %\item \ttt{findr}: Object finder using image classifier with OpenCV in
     %    Python/C++.
 \end{rSubsection}
-
-\tbf{Languages and Technologies}
-\begin{rSubsection}{}{}{}{}
-    \item Python, C++, C, Bash, R, Java, Matlab/Octave, Haskell. %, SQL, Scheme.
-    \item Linux/Windows environments, Vim, git, OpenCV, Django.
-\end{rSubsection}
-\end{rSection}
 
 \end{document}
