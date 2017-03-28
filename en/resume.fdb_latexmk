@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1490239064 "resume.tex" "resume.pdf" "resume" 1490239064
+["pdflatex"] 1490668436 "resume.tex" "resume.pdf" "resume" 1490668436
   "/home/erik/.texlive/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.657pk" 1478562428 7268 129c2e3331646bba38c264f2635faa4c ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1476972094 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -66,12 +66,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1479649825 31669 df537245012f3e5f05bdc55644b7a3df ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1489870339 1864466 954ef3072437fcf042bb17008628ab54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1479996160 7252864 c587df0730e906034ebf9c04765476f7 ""
-  "resume.aux" 1490239054 848 8cf0026a574593a94ef42a87fa12f1fa ""
+  "resume.aux" 1490668425 848 8cf0026a574593a94ef42a87fa12f1fa ""
   "resume.cls" 1368064118 4800 7d0890dd8b770ce0426136049ebec6c1 ""
-  "resume.out" 1490239054 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume.tex" 1490239064 5567 27287355fed28b765b70dd4f8a77bb3e ""
+  "resume.out" 1490668425 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.tex" 1490668434 5657 4ae96123c4eb0af62542f1594054725b ""
   (generated)
-  "resume.pdf"
   "resume.out"
-  "resume.aux"
+  "resume.pdf"
   "resume.log"
+  "resume.aux"
