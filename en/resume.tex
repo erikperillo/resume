@@ -25,7 +25,7 @@
 \usepackage{hyperref}
 \usepackage[misc]{ifsym}
 %document margins
-\usepackage[left=1.5cm,top=0.8in,right=1.8cm,bottom=0.6in]{geometry}
+\usepackage[left=1.5cm,top=0.6in,right=1.8cm,bottom=0.6in]{geometry}
 
 %macros
 \newcommand{\tit}[1]{\textit{#1}}
@@ -50,12 +50,11 @@
     \item Leader of project \tit{Piranha} (5 people team, 2015-2016):
         An autonomous mini-vehicle.
         First place in \tit{Robocore}'s latin-american 2016 robotics challenge, setting a new record.
+    \item Leader of project \tit{Baleia} (7 people team, 2014-2015):
+        An autonomous mini-vehicle.
+        Third place in \tit{Robocore}'s latin-american 2015 robotics challenge.
     \item Helped design three autonomous robots, creating navigation,
         communication and computer vision systems.
-    %\item Leader of project \tit{Baleia} (7 people team, 2014-2015):
-    %    An autonomous mini-vehicle.
-    %    First newcomers in \tit{Robocore}'s latin-american competition to
-    %    get to the podium.
 \end{rSubsection}
 
 %\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artificial Intelligence (grant by CNPQ)}
@@ -64,9 +63,9 @@
     %\item Working towards a framework for real-time vision
     %    allowing mobile robots to explore a variety of environments.
     \item Created \ttt{att}, a visual saliency detection system based on human
-        vision.
-        Our preliminary results from MIT300 benchmark suggest performance
-        close to other models with similar architecture.
+        vision written in Python.
+        %Our preliminary results from MIT300 benchmark suggest performance
+        %close to other models with similar architecture.
     \item Currently building a new model using Deep Learning to be used in real
         time by exploratory robots.
     %\item I am currently implementing state-of-the-art techniques for
@@ -75,7 +74,7 @@
 
 \begin{rSubsection}{Undergraduate Researcher on High Performance Computing}{2014 - 2015}{Computational Mechanics Laboratory (grant by AMD)}{University of Campinas, Brazil}
     %\item Analysed Linux memory management policies for NUMA systems and multiple memory contention metrics.
-    \item Designed a predictive model to infer performance under
+    \item With Machine Learning, designed a predictive model to infer performance under
         various memory policies in ccNUMA systems, saving $66\%$ of time in
         determining the best policy for each program.
     \item Our work resulted in a paper accepted for ERAD-SP 2017 conference in Brazil.
@@ -83,7 +82,7 @@
 
 \begin{rSubsection}{Undergraduate Researcher on Computer Vision}{2013 - 2014}{Renato Archer Center of Technology (grant by CNPQ)}{Campinas, Brazil}
     \item Built a tool for real-time indoors tracking of
-        mobile robots using OpenCV\@. Compared to the older system,
+        mobile robots using OpenCV (C++). Compared to the older system,
         we achieved tracking of more objects
         and no need for special hardware (only webcams).
 \end{rSubsection}
@@ -112,12 +111,12 @@
     \item \ttt{Piranha Robot}:
         built inter-communication system using UDP protocol (C++),
         vision system using CUDA OpenCV (C++/Python),
-        helped build PID control unit using NXP platform/sensors (C/C++),
+        helped build PID control unit using NXP platform/sensors (C/C++).
     \item \ttt{hct}: Real time hashtag counter using Twitter Streaming API and
         Apache Spark.
-    %\item \ttt{Baleia Robot}:
-    %    built navigation system using Adafruit's BBIO library (Python),
-    %    vision system using an image classifier to detect objects in OpenCV (Python).
+    \item \ttt{Baleia Robot}:
+        built navigation system using Adafruit's BBIO library (Python),
+        vision system using an image classifier to detect objects in OpenCV (Python).
     \item \ttt{oarg}: A command-line argument parser for Python.
     \item \ttt{ichat}: TCP command-line chat in C++ with file transfer and
         notifications.
@@ -127,5 +126,7 @@
     %\item \ttt{findr}: Object finder using image classifier with OpenCV in
     %    Python/C++.
 \end{rSubsection}
+
+\end{rSection}
 
 \end{document}

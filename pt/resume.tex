@@ -22,9 +22,10 @@
 \usepackage[utf8]{inputenc}
 %\usepackage{wasysym}
 \usepackage{fontawesome}
+\usepackage{hyperref}
 \usepackage[misc]{ifsym}
 %document margins
-\usepackage[left=0.4in,top=0.6in,right=0.4in,bottom=0.6in]{geometry}
+\usepackage[left=1.5cm,top=0.3in,right=1.8cm,bottom=0.3in]{geometry}
 
 %macros
 \newcommand{\tit}[1]{\textit{#1}}
@@ -33,69 +34,70 @@
 
 %doc begin
 \name{Erik de Godoy Perillo}
-%\address{Rua Paulinia, 396 \\ Americana, SP -- Brazil}
+%\address{Rua Paulinia, 396 \\ Americana, SP -- Brasil}
 \address{Americana, SP -- Brasil}
 \address{\faMobilePhone~+5519996255727
-    ~~\Letter~erik.perillo@gmail.com
-    ~~$\triangleright$~erikperillo.xyz}
+   ~~\Letter~erik.perillo@gmail.com
+   ~~$\triangleright$~erikperillo.xyz}
 
 \begin{document}
 
 \begin{rSection}{Experiência}
 
-%\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{University of Campinas, Brazil}
-\begin{rSubsection}{Líder de Projeto}{2013 - 2016}{Equipe Phoenix de Robótica}{Universidade Estadual de Campinas, SP}
-    \item Liderança de dois projetos bem-sucedidos com cerca de seis pessoas
-        cada.
-    \item Projeto de três robôs autônomos e
-        criação de soluções em visão computacional para robôs usando OpenCV.
-    \item Liderança do projeto \tit{Piranha} (2015-2016):
-        Um mini-veículo autônomo capaz de reconhecimento visual de
-        alvos/obstáculos. Primeiro lugar (com recorde) na competição
-        latino-americana de robótica da \tit{Robocore 2016}.
-    %\item Leader of project \tit{Baleia} (7 people team, 2014-2015):
-    %    An autonomous mini-vehicle.
-    %    First newcomers in \tit{Robocore}'s latin-american competition to
-    %    get to the podium.
+%\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{Universidade Estadual de Campinas, Brasil}
+\begin{rSubsection}{Gerente de Projeto}{2013 - 2016}{Equipe Phoenix de Robótica}{Universidade Estadual de Campinas, Brasil}
+    %\item Led two successful teams with around 6 people each.
+    \item Líder do projeto \tit{Piranha} (time de 5 pessoas, 2015-2016):
+        Um mini-veículo autônomo.
+        Primeiro lugar na competição latino-americana
+        da \tit{Robocore} em 2016, estabelecendo um novo recorde.
+    \item Líder do projeto \tit{Baleia} (time de 7 pessoas, 2014-2015):
+        Um mini-veículo autônomo.
+        Terceiro lugar na competição da \tit{Robocore} de 2015.
+    \item Desenvolveu três robôs autônomos, criando sistemas de
+        navegação, comunicação e visão computacional.
 \end{rSubsection}
 
 %\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artificial Intelligence (grant by CNPQ)}
-\begin{rSubsection}{Pesquisador em Inteligência Artificial}{2016 - Presente}{Instituto de Computação (bolsa PIBIC-CNPQ)}
-    {Universidade Estadual de Campinas, SP}
-    \item Trabalho visando um \tit{framework} para visão em tempo real
-        permitindo a robôs explorar ambientes diversos.
-    \item Criação de \ttt{att}, uma ferramenta de detecção de saliência
-        visual em imagens escrita em \tit{Python}.
-        Resultados preliminares do \tit{MIT300 benchmark} sugerem
-        desempenho comparável com similares modelos já maduros.
+\begin{rSubsection}{Iniciação científica em Inteligência Artificial}{2016 - Presente}{Instituto de Computação (bolsa CNPQ)}
+    {Universidade Estadual de Campinas, Brasil}
+    %\item Working towards a framework for real-time vision
+    %    allowing mobile robots to explore a variety of environments.
+    \item Criou \ttt{att}, um sistema de detecção de saliência visual
+        baseado na visão humana escrito em Python.
+        %Our preliminary results from MIT300 benchmark suggest performance
+        %close to other models with similar architecture.
+    \item Construindo um novo modelo usando Deep Learning para
+        ser usado em tempo real por robôs exploratórios.
     %\item I am currently implementing state-of-the-art techniques for
     %    saliency detection using deep learning.
 \end{rSubsection}
 
-\begin{rSubsection}{Pesquisador em Sistemas de Computação}{2014 - 2015}{Laboratório de Mecânica Computacional (bolsa AMD)}{Universidade Estadual de Campinas, SP}
-    \item Análise de múltiplas políticas de gerenciamento de memória para
-        sistemas \tit{Linux} com arquitetura \tit{NUMA}.
-    \item Design de técnicas para determinação de melhor política para
-        cada aplicação via perfilamento de código.
+\begin{rSubsection}{Iniciação científica em Computação de Alto Desempenho}{2014 - 2015}{Laboratório de Mecânica Computacional (bolsa AMD)}{Universidade Estadual de Campinas, Brasil}
+    %\item Analysed Linux memory management policies for NUMA systems and multiple memory contention metrics.
+    \item Com aprendizado de máquina, criou um modelo preditivo para inferir
+        o desempenho sob variadas políticas de memória em sistemas ccNUMA,
+        salvando $66\%$ do tempo na determinação da melhor política.
+    \item Nosso trabalho resultou em um artigo aceito para a ERAD-SP 2017.
 \end{rSubsection}
 
-%\begin{rSubsection}{Pesquisador em Visão Computacional}{2013 - 2014}{Centro de Tecnologia da Informação Renato Archer (bolsa PIBIC-CNPQ)}{Campinas, SP}
-%\item Construção de uma ferramenta de rastreamento de robôs móveis usando
-%    OpenCV\@. Comparado ao sistema antigo, foi atingido ganho de desempenho
-%    próximo a duas vezes com necessidade de \tit{hardware} muito mais simples.
-%\end{rSubsection}
+\begin{rSubsection}{Iniciação Científica em Visão Computacional}{2013 - 2014}{Centro de Technologia da Informação Renato Archer (bolsa CNPQ)}{Campinas, Brasil}
+    \item Construiu ferramenta para rastreamento
+        de robôs móveis usando OpenCV (C++).
+        Comparado ao sistema antigo, obtivemos o rastreamento de mais
+        objetos, sem precisar de hardware especial (apenas webcams).
+\end{rSubsection}
 
 \end{rSection}
 
 \begin{rSection}{Educação}
 
-    \begin{rSubsection}{Bacharelado em Ciência/Engenharia da Computação (em progresso)}{2012 - Presente}{Universidade Estadual de Campinas (Unicamp)}{Campinas, SP}
-    \item PAD (Professor Assistente) em \tit{Estrutura de Dados}. Ajuda
-        na administração de aulas de exercício/laboratório.
-    %\item GPA: 3.25 (above 86\% of course group).
-    \item Coeficiente de Rendimento: 0.813 (acima de 86\% da turma).
-    \item Matérias em Engenharia de Controle e Automação (2012-2014) incluindo:
-        Dinâmica, Estática, Sistemas Lineares.
+    \begin{rSubsection}{Bacharelado em Ciência/Engenharia da Computação (em progresso)}{2015 - Presente}{Universidade Estadual de Campinas (Unicamp)}{Campinas, Brasil}
+    \item Monitor (2016/2017) - Estruturas de Dados.
+        Ajudou a elaborar/administrar trabalhos para a matéria.
+    \item Coeficiente de Rendimento: 8.49/10 (acima de 92\% da turma).
+    \item Fez matérias em Engenharia de Controle e Automação (2012-2014)
+        como Dinâmica, Sistemas Lineares.
     %\item Unicamp is ranked second best
     %    (overall and in Computer Science) in latin america according to
     %    QS rankings 2016.
@@ -103,32 +105,40 @@
 
 \end{rSection}
 
-\begin{rSection}{Experiência Técnica}
-\tbf{Línguas}
+\begin{rSection}{Idiomas}
+
 \begin{rSubsection}{}{}{}{}
-    \item Português: Fluente, Nativo.
-    \item Inglês: Fluente.
+    \item \tbf{Portugês}: Língua nativa.
+    \item \tbf{Inglês}: Proficiente.
 \end{rSubsection}
 
-\tbf{Tecnologias}
-\begin{rSubsection}{}{}{}{}
-    \item Linguagens: Python, C++, C, Bash, R, Java, Matlab/Octave, Haskell.
-    \item Sistemas/Ferramentas: Linux/Windows, Vim, git, OpenCV.
-\end{rSubsection}
-
-\tbf{Projetos}
-\begin{rSubsection}{}{}{}{}
-\item \ttt{hct}: Contador em tempo real de \tit{hashtags} usando \tit{Twitter
-    Streaming API} e \tit{Apache Spark.}
-\item \ttt{oarg}: \tit{Parsing} de argumentos de linha de comando para \tit{Python}.
-\item \ttt{imsg}: Ferramenta de esteganografia em imagens em \tit{Python}.
-\item \ttt{ichat}: Chat de linha de comando TCP em \tit{C++} com
-    transferência de arquivos e notificações.
-\item \ttt{mlct}: Classificador de texto com \tit{Naive Bayes} para grandes
-    volumes de dados usando \tit{Spark Mlib}.
-\item \ttt{findr}: Localizador de objetos usando classificadores de imagens
-    com OpenCV em \tit{Python/C++}.
-\end{rSubsection}
 \end{rSection}
+
+
+\begin{rSection}{Projetos}
+
+\begin{rSubsection}{}{}{}{}
+    \item \ttt{golb}: Plataforma minimalista de blog feita em Django.
+    \item \ttt{Robô Piranha}:
+        fez o sistema de intra-comunicação com protocolo UDP (C++),
+        sistema de visão com CUDA OpenCV (C++/Python),
+        ajudou a fazer o sistema de controle PID com plataformas NXP (C/C++).
+    \item \ttt{hct}: Contador de \tit{hashtags} em tempo real usando
+        \tit{Twitter Streaming API} e Apache Spark.
+    \item \ttt{Robô Baleia}:
+        fez o sistema de navegação com a biblioteca Adafruit BBIO (Python),
+        sistema de visão usando um classificador de imagens para deteção
+        de objetos em OpenCV (Python).
+    \item \ttt{ichat}: Chat de linha de comando em TCP (C++) com transferência
+        de arquivos e notificações.
+    %\item \ttt{imsg}: Steganography for images written in Python.
+    %\item \ttt{mlct}: Naive Bayes text classifier for big volumes of data using
+    %    Apache Spark Mlib.
+    %\item \ttt{findr}: Object finder using image classifier with OpenCV in
+    %    Python/C++.
+\end{rSubsection}
+
+\end{rSection}
+
 
 \end{document}
