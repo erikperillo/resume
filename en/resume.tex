@@ -25,7 +25,7 @@
 \usepackage{hyperref}
 \usepackage[misc]{ifsym}
 %document margins
-\usepackage[left=1.5cm,top=0.6in,right=1.8cm,bottom=0.6in]{geometry}
+\usepackage[left=1.4cm,top=0.5in,right=1.6cm,bottom=0.5in]{geometry}
 
 %macros
 \newcommand{\tit}[1]{\textit{#1}}
@@ -45,45 +45,41 @@
 \begin{rSection}{Experience}
 
 %\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{University of Campinas, Brazil}
-\begin{rSubsection}{Project Manager}{2013 - 2016}{Phoenix Team of Robotics}{University of Campinas, Brazil}
+\begin{rSubsection}{Project Manager}{2013 - 2016}{Phoenix Robotics Team of Unicamp}{Campinas, Brazil}
     %\item Led two successful teams with around 6 people each.
-    \item Leader of project \tit{Piranha} (5 people team, 2015-2016):
-        An autonomous mini-vehicle.
-        First place in \tit{Robocore}'s latin-american 2016 robotics challenge, setting a new record.
-    \item Leader of project \tit{Baleia} (7 people team, 2014-2015):
-        An autonomous mini-vehicle.
-        Third place in \tit{Robocore}'s latin-american 2015 robotics challenge.
-    \item Helped design three autonomous robots, creating navigation,
+\item Leader of projects \tit{Piranha}/\tit{Baleia},
+        two autonomous mini-vehicles (5-7 people team).
+        Third/First place in \tit{Robocore}'s latin-american 2015/2016 robotics
+        challenge, setting a new record.
+    \item Helped create three autonomous robots, building navigation,
         communication and computer vision systems.
 \end{rSubsection}
 
 %\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artificial Intelligence (grant by CNPQ)}
-\begin{rSubsection}{Undergraduate Researcher on Artificial Intelligence}{2016 - Present}{Institute of Computing (grant by CNPQ)}
-    {University of Campinas, Brazil}
+\begin{rSubsection}{Undergraduate Researcher on Artificial Intelligence}{2016 - Present}{Institute of Computing, University of Campinas}
+    {Campinas, Brazil}
     %\item Working towards a framework for real-time vision
     %    allowing mobile robots to explore a variety of environments.
-    \item Created \ttt{att}, a visual saliency detection system based on human
-        vision written in Python.
+    \item Created a visual saliency detection system using Deep Learning.
+        Our model has around 3/4 less parameters than similar methods yet
+        achieves top-10 performance on MIT300 benchmark.
         %Our preliminary results from MIT300 benchmark suggest performance
         %close to other models with similar architecture.
-    \item Currently building a new model using Deep Learning to be used in real
-        time by exploratory robots.
     %\item I am currently implementing state-of-the-art techniques for
     %    saliency detection using deep learning.
 \end{rSubsection}
 
-\begin{rSubsection}{Undergraduate Researcher on High Performance Computing}{2014 - 2015}{Computational Mechanics Laboratory (grant by AMD)}{University of Campinas, Brazil}
-    %\item Analysed Linux memory management policies for NUMA systems and multiple memory contention metrics.
-    \item With Machine Learning, designed a predictive model to infer performance under
-        various memory policies in ccNUMA systems, saving $66\%$ of time in
-        determining the best policy for each program.
+\begin{rSubsection}{Undergraduate Researcher on High Performance Computing}{2014 - 2015}{Computational Mechanics Laboratory, University of Campinas}{Campinas, Brazil}
+    \item Designed a tool using Machine Learning to infer performance
+        in ccNUMA systems, saving $66\%$ of the time to
+        determine the best memory policy for applications.
     \item Our work resulted in a paper accepted for ERAD-SP 2017 conference in Brazil.
 \end{rSubsection}
 
-\begin{rSubsection}{Undergraduate Researcher on Computer Vision}{2013 - 2014}{Renato Archer Center of Technology (grant by CNPQ)}{Campinas, Brazil}
+\begin{rSubsection}{Undergraduate Researcher on Computer Vision}{2013 - 2014}{Renato Archer Center of Technology}{Campinas, Brazil}
     \item Built a tool for real-time indoors tracking of
-        mobile robots using OpenCV (C++). Compared to the older system,
-        we achieved tracking of more objects
+        mobile robots using OpenCV (C++),
+        achieving tracking of more objects compared to the older system
         and no need for special hardware (only webcams).
 \end{rSubsection}
 
@@ -91,7 +87,7 @@
 
 \begin{rSection}{Education}
 
-    \begin{rSubsection}{B.S. in Computer Science/Engineering (in progress)}{2015 - Present}{University of Campinas (Unicamp)}{Campinas, Brazil}
+    \begin{rSubsection}{B.S. in Computer Science (in progress)}{2015 - Present}{University of Campinas (Unicamp)}{Campinas, Brazil}
     \item Teaching Assistant (2016/2017) in \tit{Data Structures}. Helped
         design/administer programming assignments.
     \item GPA: 8.49/10 (above 92\% of class).
@@ -105,20 +101,20 @@
 \end{rSection}
 
 \begin{rSection}{Projects}
-
 \begin{rSubsection}{}{}{}{}
-    \item \ttt{golb}: Minimalistic blog platform built with Django.
-    \item \ttt{Piranha Robot}:
+    \vspace{-0.5em}
+    \item \tbf{\ttt{golb}}: Minimalistic blog platform built with Django.
+    \item \tbf{\ttt{Piranha Robot}}:
         built inter-communication system using UDP protocol (C++),
         vision system using CUDA OpenCV (C++/Python),
         helped build PID control unit using NXP platform/sensors (C/C++).
-    \item \ttt{hct}: Real time hashtag counter using Twitter Streaming API and
+    \item \tbf{\ttt{hct}}: Real time hashtag counter using Twitter Streaming API and
         Apache Spark.
-    \item \ttt{Baleia Robot}:
-        built navigation system using Adafruit's BBIO library (Python),
-        vision system using an image classifier to detect objects in OpenCV (Python).
-    \item \ttt{oarg}: A command-line argument parser for Python.
-    \item \ttt{ichat}: TCP command-line chat in C++ with file transfer and
+    \item \tbf{\ttt{Baleia Robot}}:
+        built navigation system with Adafruit's BBIO library and
+        vision system with OpenCV.
+    \item \tbf{\ttt{oarg}}: A command-line argument parser for Python.
+    \item \tbf{\ttt{ichat}}: TCP command-line chat in C++ with file transfer and
         notifications.
     %\item \ttt{imsg}: Steganography for images written in Python.
     %\item \ttt{mlct}: Naive Bayes text classifier for big volumes of data using
