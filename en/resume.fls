@@ -29,15 +29,13 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texmf-dist/tex/generic/babel/switch.def
 INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/share/texmf-dist/tex/generic/babel/switch.def
 INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/utf8.def
