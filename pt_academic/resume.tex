@@ -1,0 +1,160 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%packages
+\documentclass[8pt]{resume}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{wasysym}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage[misc]{ifsym}
+%document margins
+\usepackage[left=1.2cm,top=0.2in,right=1.4cm,bottom=0.2in]{geometry}
+
+%macros
+\newcommand{\tit}[1]{\textit{#1}}
+\newcommand{\tbf}[1]{\textbf{#1}}
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+%doc begin
+\name{Erik de Godoy Perillo}
+%\address{Rua Paulinia, 396 \\ Americana, SP -- Brasil}
+\address{Americana, SP -- Brasil}
+\address{\faMobilePhone~+5531973548225
+   ~~\Letter~erik.perillo@gmail.com
+   ~~$\triangleright$~erikperillo.xyz}
+
+\begin{document}
+
+\begin{rSection}{Experiência}
+
+%\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{Universidade Estadual de Campinas, Brasil}
+\begin{rSubsection}{Desenvolvedor de sistemas de Machine Learning}{2018 - Presente}{Agronow}{São José dos Campos, Brasil}
+    \item Pesquisa e desenvolvimento de modelos de Deep Learning para soluções em agricultura usando imagens de satélite.
+    \item Responsável pelo processamento de dados, definição, treinamento e gerenciamento de modelos.
+\end{rSubsection}
+
+%\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{Universidade Estadual de Campinas, Brasil}
+\begin{rSubsection}{Estágio em Engenharia de \tit{Software}}{2017 - 2018}{Google}{Belo Horizonte, Brasil}
+    \item Desenvolvimento de projeto na experiência de busca, sendo responsável
+        por discussões com UX/PMs, codificação e lançamento em produção.
+    \item Desenvolvimento de mudança de UI na \tit{onebox} de esportes da busca.
+\end{rSubsection}
+
+\begin{rSubsection}{Chief Technology Officer (CTO)}{2017 - 2017}{GAIIA tech (startup)}
+    {São Paulo, Brasil}
+    \item Desenvolveu modelos de \tit{Deep Learning} que permitiram a identificação
+        de culturas em fazendas brasileiras por meio de imagens de satélite.
+    \item Líder do time de desenvolvimento, construindo uma plataforma para
+        análise de crédito agrícola.
+\end{rSubsection}
+
+%\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{Universidade Estadual de Campinas, Brasil}
+\begin{rSubsection}{Gerente de Projeto}{2013 - 2016}{Equipe Phoenix de Robótica da Unicamp}{Campinas, Brasil}
+    %\item Led two successful teams with around 6 people each.
+    \item Líder dos projetos \tit{Baleia/Piranha}, dois mini-veículos
+        autônomos (time de 5-7 pessoas).
+        Terceiro/primeiro lugar nas competição latino-americanas da
+        \tit{Robocore} de 2015/2016, criando um novo recorde na categoria.
+    \item Desenvolveu três robôs autônomos, criando sistemas de
+        navegação, comunicação e visão computacional.
+\end{rSubsection}
+
+%\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artificial Intelligence (grant by CNPQ)}
+\begin{rSubsection}{Iniciação científica em Inteligência Artificial}{2016 - 2017}{Instituto de Computação, Unicamp}
+    {Campinas, Brasil}
+    %\item Working towards a framework for real-time vision
+    %    allowing mobile robots to explore a variety of environments.
+    \item Criou \ttt{att}, um sistema de detecção de saliência visual
+        baseado na visão humana com \tit{Deep Learning}.
+        %Our preliminary results from MIT300 benchmark suggest performance
+        %close to other models with similar architecture.
+    \item Prêmio de melhor Iniciação Científica no WTD2017 do IC-Unicamp.
+    %\item I am currently implementing state-of-the-art techniques for
+    %    saliency detection using deep learning.
+\end{rSubsection}
+
+\begin{rSubsection}{Iniciação Científica em Computação de Alto Desempenho}{2014 - 2015}{Laboratório de Mecânica Computacional, Unicamp}{Campinas, Brasil}
+    \item Desenvolveu uma ferramenta usando Aprendizado de Máquina para inferir o
+        desempenho em sistemas ccNUMA, salvando $66\%$ do tempo para determinar
+        a melhor política de memória para aplicações.
+    \item Nosso trabalho resultou em um artigo aceito para o ERAD-SP 2017 - Brasil.
+\end{rSubsection}
+
+\begin{rSubsection}{Iniciação Científica em Visão Computacional}{2013 - 2014}{Centro de Tecnologia Renato Archer}{Campinas, Brasil}
+    \item Desenvolveu uma ferramenta para rastreamento em tempo real em
+        ambientes fechados de robôs móveis usando OpenCV (C++),
+        Comparado ao sistema anterior,
+        obteve-se rastreamento mais eficiente, de mais objetos e sem necessidade
+        de hardware especial (apenas webcams).
+\end{rSubsection}
+
+
+\end{rSection}
+
+\newpage
+\begin{rSection}{Educação}
+
+    \begin{rSubsection}{Bacharelado em Ciência da Computação (em progresso)}{2012 - Presente}{Universidade Estadual de Campinas (Unicamp)}{Campinas, Brasil}
+    \item Monitor (2016/2017) - Estruturas de Dados.
+        Ajudou a elaborar/administrar trabalhos para a matéria.
+    \item Coeficiente de Rendimento atual: 8.93/10 (Primeiro lugar da turma).
+    \item Fez matérias em Engenharia de Controle e Automação (2012-2014)
+        como Dinâmica, Sistemas Lineares.
+    \end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Idiomas}
+
+    \begin{rSubsection}{}{}{}{}
+        \item \tbf{Portugês}: Língua nativa.
+        \item \tbf{Inglês}: Fluente.
+    \end{rSubsection}
+
+\end{rSection}
+
+
+\begin{rSection}{Projetos}
+
+\begin{rSubsection}{}{}{}{}
+    \item \ttt{golb}: Plataforma minimalista de blog feita em Django.
+    \item \ttt{Robô Piranha}:
+        fez o sistema de intra-comunicação com protocolo UDP (C++),
+        sistema de visão com CUDA OpenCV (C++/Python),
+        ajudou a fazer o sistema de controle PID com plataformas NXP (C/C++).
+    \item \ttt{hct}: Contador de \tit{hashtags} em tempo real usando
+        \tit{Twitter Streaming API} e Apache Spark.
+    \item \ttt{Robô Baleia}:
+        fez o sistema de navegação com a biblioteca Adafruit BBIO (Python),
+        sistema de visão usando um classificador de imagens para detecção
+        de objetos em OpenCV (Python).
+    %\item \ttt{ichat}: Chat de linha de comando em TCP (C++) com transferência
+    %    de arquivos e notificações.
+    %\item \ttt{imsg}: Steganography for images written in Python.
+    %\item \ttt{mlct}: Naive Bayes text classifier for big volumes of data using
+    %    Apache Spark Mlib.
+    %\item \ttt{findr}: Object finder using image classifier with OpenCV in
+    %    Python/C++.
+\end{rSubsection}
+
+\end{rSection}
+
+
+\end{document}
