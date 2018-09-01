@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%packages
+\documentclass[8pt]{resume}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{wasysym}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage[misc]{ifsym}
+%document margins
+\usepackage[left=1.4cm,top=0.3in,right=1.6cm,bottom=0.5in]{geometry}
+
+%macros
+\newcommand{\tit}[1]{\textit{#1}}
+\newcommand{\tbf}[1]{\textbf{#1}}
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+%doc begin
+\name{Erik de Godoy Perillo}
+%\address{Rua Paulinia, 396 \\ Americana, SP -- Brazil}
+\address{Americana, SP -- Brazil}
+\address{\faMobilePhone~+55 31 973248225
+   ~~\Letter~erik.perillo@gmail.com
+   ~~$\triangleright$~erikperillo.xyz}
+
+\begin{document}
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Agronow}{2018 - Present}{Machine Learning Engineer}
+    {São Paulo, Brazil}
+\item Built Machine Learning solutions for agricultural crop identification
+        using public satellite imagery.
+\end{rSubsection}
+
+\begin{rSubsection}{Google}{2017 - 2018}{Software Engineering Intern}
+    {Belo Horizonte, Brazil}
+    \item Worked on the sports experience in search, successfully developing/launching a new feature to production.
+\end{rSubsection}
+
+\begin{rSubsection}{GAIIA tech (startup)}{2017 - 2017}{Chief Technology Officer}
+    {São Paulo, Brazil}
+    \item Leader of the development team, providing Deep Learning solutions for agriculture.
+\end{rSubsection}
+
+%\begin{rSubsection}{Phoenix Team of Robotics}{2013 - 2016}{Project Manager}{University of Campinas, Brazil}
+\begin{rSubsection}{Phoenix Robotics Team - Unicamp}{2013 - 2016}{Project Manager}
+    {Campinas, Brazil}
+    %\item Led two successful teams with around 6 people each.
+\item Leader of projects \tit{Piranha}/\tit{Baleia},
+        two autonomous mini-vehicles (5-7 people team).
+        Third/First place in \tit{Robocore}'s latin-american 2015/2016 robotics
+        challenge, setting a new record.
+    \item Built navigation, communication and computer vision systems
+        during the conception of 3 autonomous robots.
+\end{rSubsection}
+
+%\begin{rSubsection}{Institute of Computing}{2016 - Present}{Undergraduate Researcher on Artificial Intelligence (grant by CNPQ)}
+\begin{rSubsection}{Institute of Computing - Unicamp}{2016 - 2017}{Undergraduate Researcher on Deep Learning}
+    {Campinas, Brazil}
+    %\item Working towards a framework for real-time vision
+    %    allowing mobile robots to explore a variety of environments.
+    \item Created \tit{DeepPeek}, a Convolutional Neural Network for visual saliency detection.
+        Our model has around 3/4 less parameters than similar methods yet
+        achieved top-10 performance on MIT300 benchmark.
+    %\item Best Undergraduate Research Project Award on WTD2017 conference at
+    %    Unicamp.
+        %Our preliminary results from MIT300 benchmark suggest performance
+        %close to other models with similar architecture.
+    %\item I am currently implementing state-of-the-art techniques for
+    %    saliency detection using deep learning.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Education}
+\begin{rSubsection}{Master of Science (MS), Computer Science}{2018 - Present}{University of Campinas (Unicamp)}{Campinas, Brazil}
+    \item Ranked first place in the admission process.
+\end{rSubsection}
+
+\begin{rSubsection}{Bachelor of Science (BS), Computer Science (graduated with distinction)}{2015 - 2018}{University of Campinas (Unicamp)}{Campinas, Brazil}
+    \item Teaching Assistant (2016/2017) in \tit{Data Structures}. Helped
+        design/administer programming assignments.
+    \item Last GPA: 8.8/10 (first in class).
+    \item Three Research projects on Computer Vision, High Performance Computing and Deep Learning.
+    %\item Coursework in Control Engineering (2012-2014) including:
+    %    Dynamics, Statics, Linear Systems.
+    %\item Unicamp is ranked second best
+    %    (overall and in Computer Science) in latin america according to
+    %    QS rankings 2016.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Awards}
+\begin{rSubsection}{}{}{}{}
+    \vspace{-0.5em}
+    \item \tbf{Best Undergraduate Research Project} for the work presented at \tit{WTD2017} conference at Unicamp.
+    \item \tbf{Alumni Scholarship}: awarded to 4 selected students for their undergraduate research projects in 2017.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Other Projects}
+\begin{rSubsection}{}{}{}{}
+    \vspace{-0.5em}
+    \item \tbf{\ttt{golb}}: Minimalistic blog platform built with Django.
+    %\item \tbf{\ttt{Piranha Robot}}:
+    %    built inter-communication system using UDP protocol (C++),
+    %    vision system using CUDA OpenCV (C++/Python),
+    %    helped build PID control unit using NXP platform/sensors (C/C++).
+    %\item \tbf{\ttt{hct}}: Real time hashtag counter using Twitter Streaming API and
+    %    Apache Spark.
+    %\item \tbf{\ttt{Baleia Robot}}:
+    %    built navigation system with Adafruit's BBIO library and
+    %    vision system with OpenCV.
+    %\item \tbf{\ttt{oarg}}: A command-line argument parser for Python.
+    \item \tbf{\ttt{ichat}}: TCP command-line chat in C++ with file transfer and
+        notifications.
+    %\item \ttt{imsg}: Steganography for images written in Python.
+    %\item \ttt{mlct}: Naive Bayes text classifier for big volumes of data using
+    %    Apache Spark Mlib.
+    %\item \ttt{findr}: Object finder using image classifier with OpenCV in
+    %    Python/C++.
+\end{rSubsection}
+
+\end{rSection}
+
+\end{document}
