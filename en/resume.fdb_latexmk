@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557879418 "resume.tex" "resume.pdf" "resume" 1557879419
+["pdflatex"] 1557881079 "resume.tex" "resume.pdf" "resume" 1557881080
   "/etc/texmf/web2c/texmf.cnf" 1534081088 1101 af7716885e081ab43982cab7b4672c1a ""
   "/home/erik/.texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.657pk" 1526177170 7268 0d0eca7dba3e863478e1d0a058cf5ebe ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1438381205 2741 e94953ad19dccd677c83d6bd15befd91 ""
@@ -77,12 +77,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1534081105 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539335767 3853848 2491fe59d2f85e98d96b7241169d94b5 ""
-  "resume.aux" 1557879419 848 8cf0026a574593a94ef42a87fa12f1fa ""
+  "resume.aux" 1557881080 848 8cf0026a574593a94ef42a87fa12f1fa ""
   "resume.cls" 1556299888 4983 04ee317982b8d08d7d31c931974f7a17 ""
-  "resume.out" 1557879419 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume.tex" 1557879417 6091 fcccd382fc707b4043bd19eec569bd07 ""
+  "resume.out" 1557881079 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.tex" 1557881021 6165 0fdc54087b0c8553fdf8b31d3975e804 ""
   (generated)
-  "resume.pdf"
-  "resume.log"
   "resume.aux"
   "resume.out"
+  "resume.pdf"
+  "resume.log"
